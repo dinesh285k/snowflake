@@ -14,6 +14,7 @@ CREATE OR REPLACE STAGE json_stage;
 
 ```
 PUT file:///C:/path_to_your_folder/*.json @json_stage;
+PUT 'file://D:\\aws project\\car.json' @json_stage AUTO_COMPRESS=FALSE; unzip the file
 ```
 
 ```
